@@ -48,3 +48,24 @@ function dobleElemento() {
     }
     console.log(numDuplicados)
 }
+
+function piramide(){
+    let numBase = prompt("Ingrese la cantidad de asteriscos que tiene la base")
+    numBase= parseInt(numBase)
+    for (let i = 1; i <= numBase; i++) {
+        console.log("*".repeat(i))
+    }
+    
+    for (let i = 1; i <= numBase; i++) {
+        
+    }
+}
+
+function nombresA(){
+    let nomrbes = prompt("Ingrese una lista de nombres separados por coma")
+    let nombresConA=[]
+    for (const nombre of nombres){
+        if(nombre)
+    }
+
+}
